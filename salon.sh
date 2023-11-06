@@ -5,7 +5,6 @@ echo -e "\n~~~~~ MY SALON ~~~~~\n"
 PSQL="psql -X --username=freecodecamp --dbname=salon --tuples-only -c"
 
 MAIN_MENU() {
-  # print arg if pass
   if [[ $1 ]]
   then
     echo -e "\n$1"
